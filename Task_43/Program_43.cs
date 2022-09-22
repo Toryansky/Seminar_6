@@ -17,7 +17,7 @@ var y = (k1 * b2 - k2 * b1) / (k1 - k2);
 x = Math.Round(x, 3);
 y = Math.Round(y, 3);
 
-if (k1 == k2 && b1 != b2)  
+if (k1 == k2 && b1 != b2)
 {
     Console.WriteLine("Прямые параллельны");
 }
